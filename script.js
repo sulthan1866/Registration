@@ -40,7 +40,7 @@ function isUserId(s){
 
 function isPassword(s){
     dig =/\d/.test(s);
-    spl = /[\w\s]/.test(s);
+    spl = /[!@#$%^&*()?_]/.test(s);
     sl = /[a-z]/.test(s);
     cl=/[A-Z]/.test(s);
     len = s.length>=8 && s.length<=20;
