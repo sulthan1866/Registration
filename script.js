@@ -153,6 +153,7 @@ document.getElementById("submit").addEventListener("click",function(e){
             document.getElementById('otpTop').className='text-danger d-flex justify-content-center'
             otpVal.textContent='Wrong OTP(Hint: '+otpNo+')';
             e.preventDefault();
+            otp.focus();
         }
         
     }
