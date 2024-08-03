@@ -96,8 +96,8 @@ document.getElementById("submit").addEventListener("click",function(e){
             e.preventDefault();
             password.focus();
         }
-        else {passwordVal.textContent="password should contain atleast one spl character";
-            passwordVal1.textContent=" ,upper case and lower case letter"
+        else {passwordVal.textContent="password should contain atleast one spl character,";
+            passwordVal1.textContent="upper and lower case letter and number"
             e.preventDefault();
             password.focus();
     
